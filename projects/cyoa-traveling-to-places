@@ -44,10 +44,17 @@
     <div class="container-fluid bg-1">
         <div class="container">
 
-            <h1 class="margin text-center">Example Project</h1>
+            <h1 class="margin text-center"> Cyoa Traveling to Places Project</h1>
+            <h2>Content</h2>
             <p>Text about the project</p>
+            <h2>Reflection<h2> 
+            <h3>Context<h3>
             <p>More text about the project.</p>
-            <a href="#">Link about the project</a><br>
+            <h3>Challenges<h3>
+            <p>More text about the project.</p>
+            <h3>Next Step <h3>
+            <p>More text about the project.</p>
+            <a href="https://github.com/xinyangl5722/CYOA-Travelling-to-places">Link to the project</a><br>
 
             <!--EXAMPLE OF PREVIEW LINK-->
             <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a><br>-->
