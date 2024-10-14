@@ -84,4 +84,6 @@ a {
 }
 .container-fluid bg-1 text-center{  
 background-color: gray;
+    position: absolute;
+  left: -10px;
 }
