@@ -37,9 +37,22 @@ a {
 .bg-1 {
     background-color: #555555;; /* White */
     color: #555555;
-    position: absolute;
-   left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
+}
+
 
 .bg-2 {
     background-color: pink; /* Blue */
