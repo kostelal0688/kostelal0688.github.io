@@ -35,8 +35,10 @@ a {
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
+    background-color: #555555;; /* White */
     color: #555555;
+    position: absolute;
+   left: -10px;
 }
 
 .bg-2 {
@@ -76,14 +78,10 @@ a {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    color: pink;
+  color: pink !important;
 }
 
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
 }
-.container-fluid bg-1 text-center{  
-background-color: gray;
-    position: absolute;
-  left: -10px;
-}
+
