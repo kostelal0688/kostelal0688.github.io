@@ -115,6 +115,41 @@ video {
     color: #ff3e90;
 }
 
+/* Certificates */
+#certificates {
+  background-color: #fdf2f8 !important;
+}
+
+#certificates h2 {
+    color: #b83280; /* darker pink for the heading */
+    font-weight: bold;
+}
+
+#certificates .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#certificates .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+#certificates .card-title {
+    font-size: 1.2rem;
+    color: #b83280;
+}
+
+#certificates .btn-primary {
+    background-color: #b83280;
+    border-color: #b83280;
+}
+
+#certificates .btn-primary:hover {
+    background-color: #9d286b;
+    border-color: #9d286b;
+}
+
 /* Footer */
 .bg-4 {
     background-color: #fce5ec;
