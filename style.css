@@ -149,6 +149,26 @@ video {
     background-color: #9d286b;
     border-color: #9d286b;
 }
+/* Carousel styles */
+.carousel-line {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 1rem;
+  animation: scroll-left 20s linear infinite;
+}
+
+.card {
+  flex: 0 0 300px;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
 
 /* Footer */
 .bg-4 {
